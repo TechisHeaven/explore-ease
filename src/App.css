@@ -1,0 +1,57 @@
+.text-gradient {
+  background: #3f4579;
+  background: linear-gradient(to right, #3f4579 0%, #423d44 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+* {
+  user-select: none;
+}
+
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+
+ul li.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 50%;
+  background-color: #3f4579;
+  height: 3px;
+  transition: width ease 0.5s;
+  transform-origin: center;
+}
+
+ul li::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0%;
+  background-color: #3f4579;
+  height: 3px;
+  transition: width ease 0.5s, color ease 0.5s;
+  transform-origin: center;
+  transform: translateX(-50%);
+}
+ul li:hover::after {
+  width: 100%;
+}
+
+ul li:hover {
+  color: #3f4579;
+}
+
+.loginbtn:hover {
+  border: 1px solid #3f4579;
+}
+.loginbtn {
+  transition: border ease-in-out 0.2s;
+  border: 1px solid transparent;
+}
+
+.carousel-inner {
+}
