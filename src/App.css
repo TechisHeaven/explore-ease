@@ -53,5 +53,53 @@ ul li:hover {
   border: 1px solid transparent;
 }
 
-.carousel-inner {
+.qoutes .item {
+  border-radius: 10px 20px 100px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.qoutes .item.item-2 {
+  border-radius: 20px 20px 20px 100px;
+}
+
+.qoutes .item.item-3 {
+  border-radius: 20px 200px 20px 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2.5rem;
+  grid-row-gap: 2.5rem;
+  transition: all ease 0.4s;
+}
+
+.card {
+  transition: all ease 0.4s;
+  z-index: 15;
+}
+.planTrip {
+  visibility: hidden;
+  transition: all ease 0.4s;
+}
+
+.card:not(:hover) {
+  z-index: 5;
+}
+
+.card:hover {
+  z-index: 16;
+  scale: 1.01;
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.card:hover .planTrip {
+  visibility: visible;
+}
+
+.item p:hover {
+  cursor: pointer;
+  color: #444046;
 }

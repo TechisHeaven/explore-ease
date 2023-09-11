@@ -23,19 +23,25 @@ const PopularSearch = () => {
     {
       name: "Red fort",
     },
+    {
+      name: "Batu Gong",
+    },
   ];
   return (
-    <div className="flex flex-col gap-4 items-center p-6 relative">
+    <div className="flex flex-col gap-4 items-center p-6 relative  max-w-[1280px] mx-auto">
       <img
         src="./popular.png"
         className="absolute w-20 right-[40%] top-0"
         alt=""
       />
       <h1 className="font-semibold text-2xl">PopularSearch</h1>
-      <div className="popularSearches flex flex-wrap gap-4 px-10 py-4 capitalize">
+      <div className="popularSearches flex flex-wrap gap-4 px-10 py-12 capitalize">
         {popular.map((data, index) => {
           return (
-            <div className="searchResult px-8 text-[#8a898b] text-lg py-2 border border-[#8a898b] cursor-pointer rounded-xl font-semibold">
+            <div
+              key={index}
+              className="searchResult px-8 text-[#8a898b] text-lg py-2 border border-[#8a898b] cursor-pointer rounded-xl font-semibold"
+            >
               {data.name}
             </div>
           );

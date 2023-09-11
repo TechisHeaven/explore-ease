@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <div className="main max-w-[1280px] mx-auto">
+      <div className="main">
         <Home />
       </div>
     </>
