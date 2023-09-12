@@ -30,7 +30,7 @@ const PopularSearch = () => {
   return (
     <div className="flex flex-col gap-4 items-center p-6 relative  max-w-[1280px] mx-auto">
       <img
-        src="./popular.png"
+        src="./popular.webp"
         className="absolute w-20 right-[40%] top-0"
         alt=""
       />

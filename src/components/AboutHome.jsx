@@ -41,7 +41,7 @@ const AboutHome = () => {
             </div>
           </div>
         </div>
-        <img className="w-[500px]" src="./about-home.png" alt="about-home" />
+        <img className="w-[500px]" src="./about-home.webp" alt="about-home" />
       </div>
       <div className="flex-1">
         <h1 className="font-bold text-4xl text-[#444046]">

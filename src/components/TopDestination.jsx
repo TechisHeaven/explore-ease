@@ -5,18 +5,18 @@ import { ImLocation } from "react-icons/im";
 
 const TopDestination = () => {
   const destination = [
-    { img: "./1.png" },
+    { img: "./1.webp" },
     {
-      img: "./2.png",
+      img: "./2.webp",
     },
     {
-      img: "./3.png",
+      img: "./3.webp",
     },
     {
-      img: "./4.png",
+      img: "./4.webp",
     },
     {
-      img: "./5.png",
+      img: "./5.webp",
     },
   ];
   return (
