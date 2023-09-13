@@ -5,10 +5,10 @@ import { LuSend } from "react-icons/lu";
 
 const AboutHome = () => {
   return (
-    <div className="max-w-[1280px] m-auto p-12 py-32 flex flex-row items-center">
+    <div className="max-w-[1280px] m-auto p-12 py-32 flex flex-col gap-12 sm:flex-col md:flex-row items-center">
       <div className="img-container flex-1 relative">
         <div className="qoutes">
-          <div className="item-1 hover:shadow-2xl transition-all capitalize item shadow-lg text-[#423d44] flex items-start gap-2 p-4 pr-12 top-10 -left-10 absolute">
+          <div className="item-1 hover:shadow-2xl transition-all capitalize item shadow-lg text-[#423d44] flex items-start gap-2 p-4 pr-12 top-0 sm:top-10 -left-10 absolute">
             <div className="icon bg-gray-200 text-2xl rounded-md p-2">
               <AiOutlineSmile />
             </div>
@@ -18,7 +18,7 @@ const AboutHome = () => {
               <p className="text-base">customers</p>
             </div>
           </div>
-          <div className="item-2 hover:shadow-2xl transition-all capitalize item shadow-lg text-[#423d44] flex items-start gap-2 p-4 pl-12 right-10 top-[50%] absolute">
+          <div className="item-2 hover:shadow-2xl transition-all capitalize item shadow-lg text-[#423d44] flex items-start gap-2 p-4 pl-12 right-0 sm:right-10 top-[50%] absolute">
             <div className="icon bg-gray-200 text-2xl rounded-md p-2">
               <LuSend />
             </div>
@@ -47,7 +47,7 @@ const AboutHome = () => {
         <h1 className="font-bold text-4xl text-[#444046]">
           Why Choose <span className="text-[#3f4579]">Explore</span>Ease?
         </h1>
-        <p className="py-4 text-xl text-[#999999]">
+        <p className="py-4 xl:text-xl lg:text-base  text-[#999999]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sit,
           laboriosam rem dicta impedit eveniet nulla et maiores, molestias
           voluptas doloribus sunt. Corrupti maxime adipisci autem, voluptates

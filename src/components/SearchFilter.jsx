@@ -8,8 +8,8 @@ import { BiMaleFemale } from "react-icons/bi";
 const SearchFilter = () => {
   const [guestCount, setGuestCount] = useState("add guest");
   return (
-    <div className="searchFilter -translate-y-20 w-[60%] m-auto max-w-[1200px] mx-auto">
-      <div className="wrapper bg-white flex shadow-lg hover:shadow-xl transition-shadow rounded-xl px-10 py-6">
+    <div className="searchFilter -translate-y-20 w-[100%] fixed bg-white  bottom-0 sm:relative md:w-[90%] transition-all lg:w-[80%] m-auto max-w-[1200px] mx-auto">
+      <div className="wrapper bg-white shadow-lg hover:shadow-xl hidden sm:flex transition-shadow rounded-xl px-10 py-6">
         <div className="location capitalize flex-1">
           <div className="flex items-center gap-2 text-xl font-semibold">
             <div className=" rounded-full bg-gray-300 p-2">

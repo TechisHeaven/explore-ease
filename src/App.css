@@ -76,6 +76,22 @@ ul li:hover {
   transition: all ease 0.4s;
 }
 
+@media screen and (max-width: 1210px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 960px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 639px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .card {
   transition: all ease 0.4s;
   z-index: 15;

@@ -29,7 +29,7 @@ const TopDestination = () => {
   }, [destination]);
 
   return (
-    <div className="max-w-[1280px] m-auto p-12 text-center">
+    <div className="max-w-[1280px] m-auto p-0 sm:p-12 text-center">
       <div className="heading capitalize">
         <h1
           className="text-5xl font-bold 

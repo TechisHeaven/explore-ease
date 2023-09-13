@@ -62,10 +62,10 @@ const Catogery = () => {
 
   return (
     <div className=" bg-[#f4edf7]">
-      <div className="main max-w-[1280px]  p-12 m-auto flex justify-between">
+      <div className="main max-w-[1280px] flex-col  sm:flex-row p-12 m-auto flex justify-between">
         <div className="headings">
           <h1 className="font-bold text-4xl text-[#423d44] p-2">Catogories</h1>
-          <p className="text-xl capitalize text-[#423d44] p-2 break-words w-[430px]">
+          <p className="text-base sm:text-lg capitalize text-[#423d44] p-2 break-words w-[100%] sm:w-[430px]">
             much destinations here don't be confuse! it's already grouped by
             category
           </p>

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="flex items-center justify-between max-w-[1280px] w-full m-auto p-2 py-6">
       <div className="logo text-2xl font-bold text-gradient">ExploreEase</div>
-      <div className="nav-items">
+      <div className="nav-items hidden sm:block">
         <ul className="flex gap-4 font-normal text-[#999999] text-base">
           <li className="text-[#3f4579] font-semibold active">Home</li>
           <li>Booking form </li>

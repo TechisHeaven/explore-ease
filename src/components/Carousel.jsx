@@ -55,7 +55,7 @@ const Carousel = ({ slides }) => {
                 initial={{ opacity: 0, y: -100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.2 }}
-                className="text-center text-6xl capitalize mt-4 font-bold text-[#423d44]"
+                className="text-center text-4xl sm:text-6xl capitalize mt-4 font-bold text-[#423d44]"
               >
                 Explore Beautiful places
               </h1>
