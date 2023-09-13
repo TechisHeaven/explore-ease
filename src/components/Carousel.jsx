@@ -32,7 +32,7 @@ const Carousel = ({ slides }) => {
         <AnimatePresence initial={false}>
           <motion.div
             key={currentIndex}
-            className="carousel-inner overflow-hidden relative rounded-3xl m-auto"
+            className="carousel-inner overflow-hidden w-full relative rounded-3xl m-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}

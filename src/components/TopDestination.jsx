@@ -1,24 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BiSolidDollarCircle } from "react-icons/bi";
 import { ImLocation } from "react-icons/im";
 
 const TopDestination = () => {
   const destination = [
-    { img: "./1.webp" },
+    { img: "./1.png" },
     {
-      img: "./2.webp",
+      img: "./2.png",
     },
     {
-      img: "./3.webp",
+      img: "./3.png",
     },
     {
-      img: "./4.webp",
+      img: "./1.png",
     },
     {
-      img: "./5.webp",
+      img: "./2.png",
     },
   ];
+
+  useEffect(() => {
+    // Preload images
+    destination.forEach((item) => {
+      const image = new Image();
+      image.src = item.img;
+    });
+  }, [destination]);
+
   return (
     <div className="max-w-[1280px] m-auto p-12 text-center">
       <div className="heading capitalize">

@@ -11,15 +11,15 @@ import Footer from "../../components/Footer";
 const index = () => {
   const images = [
     {
-      image: "./1.webp",
+      image: "./1-banner.png",
       text: "Lotas temple",
     },
     {
-      image: "./3.webp",
+      image: "./2-banner.png",
       text: "Taj mahal",
     },
     {
-      image: "./5.webp",
+      image: "./3-banner.png",
       text: "gateway of india",
     },
 
