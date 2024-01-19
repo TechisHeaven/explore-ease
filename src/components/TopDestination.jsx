@@ -82,7 +82,7 @@ const TopDestination = () => {
           );
         })}
       </div>
-      <button className="text-white bg-[#3f4579] px-8 p-4 rounded-xl hover:shadow-xl transition-shadow">
+      <button className="text-white capitalize bg-[#3f4579] px-8 p-4 rounded-xl hover:shadow-xl transition-shadow">
         view all destination
       </button>
     </div>

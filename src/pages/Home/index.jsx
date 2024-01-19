@@ -12,7 +12,7 @@ const index = () => {
   const images = [
     {
       image: "./1-banner.png",
-      text: "Lotas temple",
+      text: "Lotus temple",
     },
     {
       image: "./2-banner.png",
